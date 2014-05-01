@@ -8,8 +8,8 @@ of helpers for writing spatial \ActiveRecord adapters based on \RGeo.
 ==== FORK NOTICE
 
 This project is released as the `rgeo-ar` gem. It only works
-with ActiveRecord 4.1+. It works with this PostGIS ActiveRecord extension:
-https://github.com/neighborland/activerecord-postgis-adapter
+with ActiveRecord 4.0+. It works with this PostGIS ActiveRecord extension:
+https://github.com/ar-postgis/ar-postgis
 
 
 === Summary
@@ -31,14 +31,12 @@ RGeo::ActiveRecord has the following requirements:
 
 * Ruby 2.0.0+
 * rgeo 0.3.20+
-* ActiveRecord 4.1.0+
-* arel 5.0.0+
+* ActiveRecord 4.0.0+
 
 Generally, \ActiveRecord adapters which depend on this module should be
 installed as gems, and they will install this module automatically as
 a dependency. However, you can also install it manually as a gem:
 
-  gem install rgeo
   gem install rgeo-ar
 
 See the README for the "rgeo" gem, a required dependency, for further
@@ -46,50 +44,19 @@ installation information.
 
 === Development and support
 
-Documentation is available at http://dazuma.github.com/rgeo-activerecord/rdoc
+TODO
+
+Original documentation is available at http://dazuma.github.com/rgeo-activerecord/rdoc
 
 Original source code is hosted on Github at http://github.com/dazuma/rgeo-activerecord
 
-Contributions are welcome. Fork the project on Github.
-
-Report bugs on Github issues at http://github.org/dazuma/rgeo-activerecord/issues
-
-Support available on the rgeo-users google group at http://groups.google.com/group/rgeo-users
-
-Contact the author at dazuma at gmail dot com.
 
 === Acknowledgments
 
-\RGeo is written by Daniel Azuma (http://www.daniel-azuma.com).
+\RGeo was originally written by Daniel Azuma (http://www.daniel-azuma.com).
 
-Development is supported by Pirq. (http://pirq.com).
+Development was supported by Pirq. (http://pirq.com).
 
 === License
 
-Copyright 2010-2013 Daniel Azuma
-
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-  this list of conditions and the following disclaimer.
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-* Neither the name of the copyright holder, nor the names of any other
-  contributors to this software, may be used to endorse or promote products
-  derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
+https://github.com/ar-postgis/rgeo-ar/LICENSE.txt
