@@ -17,9 +17,9 @@ require './lib/rgeo/active_record/version'
   spec.required_ruby_version = '>= 2.0.0'
 
   spec.add_dependency 'rgeo', '~> 0.3.20'
-  spec.add_dependency 'activerecord', '~> 4.1'
+  spec.add_dependency 'activerecord', '~> 4.0'
 
-  spec.add_development_dependency 'minitest', '~> 5.3'
+  spec.add_development_dependency 'minitest'
   spec.add_development_dependency 'rake', '~> 10.2'
   spec.add_development_dependency 'rdoc'
 end
