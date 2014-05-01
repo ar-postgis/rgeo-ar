@@ -1,6 +1,10 @@
 == RGeo::ActiveRecord
 
 
+{<img src="https://badge.fury.io/rb/rgeo-ar.svg" alt="Gem Version" />}[https://rubygems.org/gems/rgeo-ar]
+{<img src="https://travis-ci.org/ar-postgis/rgeo-ar.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/ar-postgis/rgeo-ar]
+
+
 RGeo::ActiveRecord is an optional {RGeo}[http://github.com/dazuma/rgeo]
 module providing spatial extensions for \ActiveRecord, as well as a set
 of helpers for writing spatial \ActiveRecord adapters based on \RGeo.
